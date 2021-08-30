@@ -2,7 +2,7 @@
 This is a simple tool to quickly add text to a banner background for making banners within a discord channel.
 
 ## Example
-![rules channel]()
+![rules channel](https://raw.githubusercontent.com/MikhaD/banner-generator/main/src/img/banners/example.png)
 
 ## Upcoming features
 - Banner background selection menu
