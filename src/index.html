@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" defer></script>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js" defer></script>
+	<title>Banner Generator</title>
+</head>
+	<body>
+		<aside id="decoration">
+			<div id="user">
+				<img src="img/profile.svg" width="40" alt="profile picture">
+				<div id="name">
+					<div id="id">Banner Generator</div>
+					<div id="tag">#6666</div>
+				</div>
+				<img id="mic" class="button" src="img/icons/mic.svg" alt="">
+				<img id="headphones" class="button" src="img/icons/headphones.svg" alt="">
+				<img id="cog" class="button" src="img/icons/cog.svg" alt="">
+			</div>
+		</aside>
+		<main id="chat">
+			<h1>Discord Banner Image Generator</h1>
+			<hr>
+			<div class="message">
+				<div class="profile"></div>
+				<div class="id"></div>
+				<div class="time">Today at <span></span></div>
+				<div class="text">
+					<canvas id="banner"></canvas>
+				</div>
+			</div>
+		</main>
+		<aside id="editor">
+			<h2>Banner Text</h2>
+			<input id="banner-text" type="text">
+			<!-- <label for="font">Font</label>
+			<input type="text" id="font"> -->
+			<div id="alignment">
+				<input type="number" class="offset" name="left" id="left-offset" value="10">
+				<form id="alignmentButtons">
+					<label class="alignment" for="left">
+						<img class="checked" src="img/icons/left.svg" alt="">
+					</label>
+					<label class="alignment" for="center">
+						<img src="img/icons/center.svg" alt="">
+					</label>
+					<label class="alignment" for="right">
+						<img src="img/icons/right.svg" alt="">
+					</label>
+					<input type="radio" class="alignment-radio" name="alignment" id="left" value="left" checked>
+					<input type="radio" class="alignment-radio" name="alignment" id="center" value="center">
+					<input type="radio" class="alignment-radio" name="alignment" id="right" value="right">
+				</form>
+				<input type="number" class="offset" name="right" id="right-offset" value="40">
+			</div>
+			<!-- <h2>Banner</h2>
+			<img id="banner-background" src="img/banners/nfr.svg" alt=""> -->
+			<!-- <h3>Preset: NFR</h3> -->
+			<a id="download-button" href="img/banners/nfr.png" target="_blank" download="banner.png">Download</a>
+		</aside>
+	</body>
+	<span id="offset-helper"></span>
+	<div id="modal" class="hidden">
+		<div id="modal-content">
+			<img id="banner-preview">
+		</div>
+	</div>
+</html>
