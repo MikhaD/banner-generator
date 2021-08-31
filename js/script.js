@@ -45,7 +45,6 @@ for (const btn of alignButtons) {
 
 
 
-const c = document.createElement("canvas");
 banner.width = 400;
 banner.height = 35;
 const ctx = banner.getContext("2d");
@@ -102,6 +101,7 @@ function drawCanvas(text, alignment) {
 			offset = leftOffset.value;
 			break;
 	}
+	ctx.setFillStyle = "#ffffff";
 	ctx.clearRect(0, 0, 400, 35);
 	ctx.drawImage(bannerImage, 0, 0, 400, 35);
 	ctx.fillText(text, offset, 30);

@@ -1,8 +1,8 @@
 <svg width="400" height="35" viewBox="0 0 400 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="0.734863" y="-0.000976562" width="382.609" height="35" fill="url(#paint0_linear)"/>
-<path d="M400.735 5.83236V11.6657H389.141V17.499H383.343V29.1657H389.141V34.999H377.546V23.3324H371.749V17.499H365.952V11.6657H377.546V5.83236H383.343V-0.000976562H394.938V5.83236H400.735Z" fill="white"/>
+<rect width="382.609" height="35" fill="url(#paint0_linear)"/>
+<path d="M400 5.83333V11.6667H388.406V17.5H382.609V29.1667H388.406V35H376.811V23.3333H371.014V17.5H365.217V11.6667H376.811V5.83333H382.609V0H394.203V5.83333H400Z" fill="white"/>
 <defs>
-<linearGradient id="paint0_linear" x1="0.734863" y1="17.499" x2="396.387" y2="17.499" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear" x1="-7.12663e-07" y1="17.5" x2="395.652" y2="17.5" gradientUnits="userSpaceOnUse">
 <stop stop-color="#2B0859"/>
 <stop offset="1" stop-color="#C4229D"/>
 </linearGradient>

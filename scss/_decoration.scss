@@ -1,0 +1,24 @@
+#decoration {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	
+}
+
+#user {
+	background-color: #292B2F;
+	padding: 1rem;
+	display: grid;
+	grid-template-columns: 3fr 9fr 2fr 2fr 2fr;
+	font-size: 1.5rem;
+	.button {
+		margin: auto 0 auto auto;
+	}
+	* {
+		margin: auto 0;;
+	}
+}
+
+#id {
+	font-weight: 900;
+}

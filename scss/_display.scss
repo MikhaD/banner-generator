@@ -1,0 +1,40 @@
+.message {
+	font-size: 1.6rem;
+	display: grid;
+	grid-template-columns: 8rem 13rem 1fr;
+	grid-template-rows: 2.5rem 1fr;
+	padding: 0.5rem 8rem 0.5rem 0;
+	margin: 2rem 0;
+	&:hover {
+		background-color: #32353B;
+	}
+}
+
+.profile {
+	width: 5rem;
+	height: 5rem;
+	background-color: #8069D7;
+	border-radius: 50%;
+	margin: 0 auto;
+	grid-row: 1/3;
+}
+
+.id::before {
+	content: "Banner Generator";
+	color: #9AA9B5;
+}
+
+.time {
+	font-size: 1.4rem;
+	color: var(--secondary-text);
+}
+
+.text {
+	grid-column: 2/4;
+	/* background-color: #fff; */
+}
+
+#banner {
+	cursor: pointer;
+	border-radius: 0.5rem;
+}

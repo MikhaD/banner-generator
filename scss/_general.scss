@@ -1,0 +1,63 @@
+:root {
+	--primary-text: white;
+	--secondary-text: #72767D;
+	--primary-bg: #36393F;
+	--secondary-bg: #2F3136;
+	--text-field-bg: #40444B;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: var(--primary-text);
+	font-size: 10px;
+}
+
+body {
+	display: grid;
+	margin: 0;
+	height: 100vh;
+	grid-template-columns: 32rem 1fr 42rem;
+}
+
+main {
+	background-color: var(--primary-bg);
+}
+
+hr {
+	background-color: #42454A;
+	border: none;
+	height: 1px;
+	width: 95%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 4rem;
+}
+
+h2 {
+	text-align: center;	
+	font-size: 3rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+h3 {
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+aside {
+	background-color: var(--secondary-bg);
+}
+
+input[type="text"], input[type="number"] {
+	display: inline-block;
+	border: none;
+	border-radius: 1rem;
+	padding: 1rem;
+	background-color: var(--text-field-bg);
+	color: var(--primary-text);
+	font-size: 1.5rem;
+}
+
+.button {
+	cursor: pointer;
+}

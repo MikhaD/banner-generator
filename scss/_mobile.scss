@@ -1,0 +1,24 @@
+@media (max-width: 1230px) {
+	body {
+		grid-template-columns: 1fr 42rem;
+	}
+	#decoration {
+		display: none;
+	}
+
+}
+
+@media (max-width: 910px) {
+	body {
+		grid-template-columns: 1fr;
+		grid-template-rows: 4fr 3fr;
+	}
+
+	.message {
+		padding: 0.5rem 0rem 0.5rem 0;
+	}
+
+#download-button {
+		margin-top: 2rem;
+	}
+}
