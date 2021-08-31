@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			margin: 0;
+			height: 100vh;
+			background-color: #36393F;
+			color: white;
+			display: grid;
+			place-items: center;
+			font-family: sans-serif;
+		}
+		div {
+			text-align: center;
+		}
+		a {
+			color: #00AFF4;
+		}
+	</style>
+	<title>Redirect</title>
+</head>
+	<body>
+		<div>
+			<h1>Banner generator has moved to</h1>
+			<h2><a href="https://mikhad.github.io/banner-generator/">https://mikhad.github.io/banner-generator/</a></h2>
+			<h3>You will be redirected in <span id="seconds">5</span> seconds</h3>
+		</div>
+	</body>
+	<script>
+		const seconds = document.querySelector("#seconds");
+		let count = 5;
+		const redirect = setInterval(() => {
+			if (count === 0) {
+				clearInterval(redirect);
+				window.location.href = "https://mikhad.github.io/banner-generator/";
+			} else {
+				seconds.textContent = --count;
+			}
+		}, 1000);
+	</script>
+</html>
