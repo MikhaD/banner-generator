@@ -16,6 +16,11 @@
 
 	.message {
 		padding: 0.5rem 0rem 0.5rem 0;
+		grid-template-columns: 6rem 13rem 1fr;
+}
+
+	#banner {
+		width: calc(min(100%, 400px));
 	}
 
 #download-button {

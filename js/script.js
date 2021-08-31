@@ -58,8 +58,6 @@ bannerImage.src = "./img/banners/nfr.svg";
 
 textInput.addEventListener("input", (e) => {
 	drawCanvas(e.target.value);
-	download.href = banner.toDataURL("img/png");
-	download.download = e.target.value;
 });
 
 timeEl.textContent = timeNow();
@@ -105,6 +103,9 @@ function drawCanvas(text, alignment) {
 	ctx.clearRect(0, 0, 400, 35);
 	ctx.drawImage(bannerImage, 0, 0, 400, 35);
 	ctx.fillText(text, offset, 30);
+
+	download.href = banner.toDataURL("img/png");
+	download.download = e.target.value;
 }
 
 mic.addEventListener("click", toggleButton);
